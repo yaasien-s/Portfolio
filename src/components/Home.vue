@@ -17,14 +17,14 @@
         <h1 class="text-left text-4xl font-light uppercase">Projects</h1>
 
         <div
-            class="projects w-10/12 grid grid grid-cols-1 md:grid-cols-2 md:space-x-12 lg:grid-cols-3 gap-6 relative place-items-center my-12 mx-auto">
-            <div class="first space-y-6">
+            class="projects grid grid-cols-1 md:grid-cols-2 md:space-x-12 lg:grid-cols-3 -gap-6 place-items-center my-12 mx-auto lg:pr-12">
+            <div class="first">
                 <a href="https://yaasien-1.netlify.app/" target="_blank">
                     <div class="one bg-black">
                         <p class="pt-24 text-3xl font-bold font-poppins text-center text-white tracking-widest">First
                             Website
                             <span class="font-normal text-xl font-cabin"><br>Web Development</span>
-                            <span class="flex space-x-6 place-content-center mt-6">
+                            <span class="flex space-x-6 place-content-center mt-6 saturate-200">
                                 <svg width="40" height="50" viewBox="0 0 90 100" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path d="M8.92813 90.034L0.906738 0H89.0934L81.072 89.9854L44.9272 100"
@@ -64,7 +64,7 @@
                         <p class="pt-16 text-3xl font-bold font-poppins text-center text-white tracking-widest">
                             BMI Calculator
                             <span class="font-normal text-xl font-cabin"><br>Web Development</span>
-                            <span class="flex space-x-6 place-content-center mt-6">
+                            <span class="flex space-x-6 place-content-center mt-6 saturate-200">
                                 <svg width="40" height="50" viewBox="0 0 90 100" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path d="M8.92813 90.034L0.906738 0H89.0934L81.072 89.9854L44.9272 100"
@@ -116,13 +116,13 @@
                     </div>
                 </a>
             </div>
-            <div class="second space-y-12">
+            <div class="second">
                 <a href="https://peaceful-watches.netlify.app/" target="_blank">
                     <div class="three bg-black">
                         <p class="pt-16 text-3xl font-bold font-poppins text-center text-white tracking-widest">
                             Peacful Watches
                             <span class="font-normal text-xl font-cabin"><br>Web Development</span>
-                            <span class="flex space-x-6 place-content-center mt-6">
+                            <span class="flex space-x-6 place-content-center mt-6 saturate-200">
                                 <svg width="40" height="50" viewBox="0 0 90 100" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path d="M8.92813 90.034L0.906738 0H89.0934L81.072 89.9854L44.9272 100"
@@ -168,10 +168,10 @@
                 <br>
                 <a href="https://ay-coffee-company-a4ff7.web.app/#/" target="_blank">
                     <div class="four bg-black">
-                        <p class="pt-24 text-3xl font-bold font-poppins text-center text-white tracking-widest">
+                        <p class="pt-20 text-3xl font-bold font-poppins text-center text-white tracking-widest">
                             A & Y Coffee
                             <span class="font-normal text-xl font-cabin"><br>Software Development</span>
-                            <span class="flex space-x-5 place-content-center mt-6">
+                            <span class="flex space-x-5 place-content-center mt-6 saturate-200">
                                 <svg width="50" height="40" viewBox="0 0 101 87" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M80.9329 0.469238H100.933L50.9329 86.7192L0.932861 0.469238H39.1829L50.9329 20.4692L62.4329 0.469238H80.9329Z" fill="#41B883"/>
 <path d="M0.932861 0.469238L50.9329 86.7192L100.933 0.469238H80.9329L50.9329 52.2192L20.6829 0.469238H0.932861Z" fill="#41B883"/>
@@ -206,43 +206,31 @@
                     </div>
                 </a>
             </div>
-            <a href="https://www.figma.com/file/hZhYfU76Z9VsjrlB6C9qgO/LCS-Design?node-id=0%3A1"
-                target="_blank">
-                <div class="five bg-black md:ml-12">
-                    <p class="pt-24 text-3xl font-bold text-center text-white tracking-widest">LC Studio <br>
-                        Design
-                        <span class="font-normal text-xl font-cabin"><br>UI/UX</span>
-                        <span class="flex space-x-5 place-content-center mt-2 saturate-200"><br><svg width="30" height="50" viewBox="0 0 68 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M17.1617 100C26.3617 100 33.8284 92.5334 33.8284 83.3334V66.6667H17.1617C7.96172 66.6667 0.495056 74.1334 0.495056 83.3334C0.495056 92.5334 7.96172 100 17.1617 100Z" fill="#0ACF83"/>
-<path d="M0.495056 49.9999C0.495056 40.7999 7.96172 33.3333 17.1617 33.3333H33.8284V66.6665H17.1617C7.96172 66.6665 0.495056 59.1999 0.495056 49.9999Z" fill="#A259FF"/>
-<path d="M0.495056 16.6667C0.495056 7.46666 7.96172 0 17.1617 0H33.8284V33.3333H17.1617C7.96172 33.3333 0.495056 25.8667 0.495056 16.6667Z" fill="#F24E1E"/>
-<path d="M33.8284 0H50.4951C59.6951 0 67.1618 7.46666 67.1618 16.6667C67.1618 25.8667 59.6951 33.3333 50.4951 33.3333H33.8284V0Z" fill="#FF7262"/>
-<path d="M67.1618 49.9999C67.1618 59.1999 59.6951 66.6665 50.4951 66.6665C41.295 66.6665 33.8284 59.1999 33.8284 49.9999C33.8284 40.7999 41.295 33.3333 50.4951 33.3333C59.6951 33.3333 67.1618 40.7999 67.1618 49.9999Z" fill="#1ABCFE"/>
-</svg>
-</span>
-                    </p>
-                    <div class="icons flex space-x-12 place-content-center relative top-64">
-                        <!-- <svg class="fill-white hover:fill-blue-500 duration-300" width="30" height="30" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M10 0.246582C7.6255 0.24668 5.32849 1.0917 3.51999 2.63043C1.71149 4.16916 0.509528 6.3012 0.12916 8.64506C-0.251207 10.9889 0.214845 13.3917 1.44393 15.4233C2.67301 17.455 4.58491 18.9831 6.83755 19.7341C7.33755 19.8216 7.52505 19.5216 7.52505 19.2591C7.52505 19.0216 7.51254 18.2341 7.51254 17.3966C5.00003 17.8591 4.35003 16.7841 4.15003 16.2216C3.9281 15.6745 3.5763 15.1897 3.12503 14.8091C2.77503 14.6216 2.27503 14.1591 3.11252 14.1466C3.4323 14.1813 3.73901 14.2926 4.00666 14.471C4.2743 14.6494 4.49499 14.8897 4.65003 15.1716C4.7868 15.4173 4.97071 15.6336 5.19122 15.8081C5.41173 15.9826 5.6645 16.1118 5.93506 16.1885C6.20562 16.2651 6.48864 16.2876 6.76791 16.2547C7.04717 16.2218 7.3172 16.134 7.56251 15.9966C7.6058 15.4882 7.83237 15.0129 8.20003 14.6591C5.97503 14.4091 3.65003 13.5466 3.65003 9.72161C3.63597 8.72776 4.00271 7.76619 4.67503 7.03411C4.36931 6.17033 4.40508 5.2224 4.77503 4.38411C4.77503 4.38411 5.6125 4.1216 7.52503 5.40911C9.16131 4.95909 10.8887 4.95909 12.525 5.40911C14.4375 4.10911 15.275 4.38411 15.275 4.38411C15.645 5.22238 15.6808 6.17034 15.375 7.03411C16.0494 7.76494 16.4164 8.72734 16.4 9.72161C16.4 13.5591 14.0625 14.4091 11.8375 14.6591C12.0762 14.901 12.26 15.1914 12.3764 15.5106C12.4929 15.8298 12.5393 16.1704 12.5125 16.5091C12.5125 17.8466 12.5 18.9216 12.5 19.2591C12.5 19.5216 12.6875 19.8341 13.1875 19.7341C15.4362 18.977 17.3426 17.4453 18.5664 15.4126C19.7903 13.3799 20.2519 10.9784 19.8689 8.63682C19.4859 6.29523 18.2832 4.16595 16.4755 2.62909C14.6678 1.09223 12.3727 0.247817 10 0.246582Z"
-                                 />
-                        </svg>
-                        <svg class="fill-white hover:fill-blue-500 duration-300" width="30" height="30" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M8.00008 15.5501L6.23008 17.2701C5.76595 17.7342 5.13646 17.995 4.48008 17.995C3.8237 17.995 3.19421 17.7342 2.73008 17.2701C2.26595 16.806 2.00521 16.1765 2.00521 15.5201C2.00521 14.8637 2.26595 14.2342 2.73008 13.7701L7.27008 9.22009C7.71569 8.77304 8.3161 8.51437 8.94709 8.49762C9.57809 8.48087 10.1914 8.70731 10.6601 9.13009L10.7801 9.23009C10.9697 9.41575 11.2253 9.51846 11.4907 9.51565C11.7561 9.51284 12.0094 9.40472 12.1951 9.21509C12.3807 9.02547 12.4835 8.76985 12.4806 8.50449C12.4778 8.23912 12.3697 7.98575 12.1801 7.80009C12.1236 7.72712 12.0636 7.65703 12.0001 7.59009C11.1464 6.84741 10.0424 6.45694 8.91165 6.49779C7.78088 6.53864 6.70791 7.00775 5.91008 7.81009L1.31008 12.3601C0.528437 13.2109 0.105701 14.3308 0.130155 15.4858C0.154609 16.6409 0.624362 17.7419 1.44131 18.5589C2.25826 19.3758 3.35924 19.8456 4.51433 19.87C5.66941 19.8945 6.78929 19.4717 7.64008 18.6901L9.37008 17.0001C9.5409 16.8137 9.6348 16.5696 9.63289 16.3168C9.63098 16.064 9.5334 15.8214 9.35979 15.6376C9.18618 15.4539 8.94942 15.3427 8.69715 15.3264C8.44488 15.3102 8.19582 15.3901 8.00008 15.5501ZM18.6901 1.31009C17.8489 0.474102 16.7111 0.00488281 15.5251 0.00488281C14.3391 0.00488281 13.2013 0.474102 12.3601 1.31009L10.6301 3.00009C10.4593 3.18644 10.3654 3.43057 10.3673 3.68336C10.3692 3.93615 10.4668 4.17883 10.6404 4.36258C10.814 4.54633 11.0507 4.65751 11.303 4.67375C11.5553 4.68998 11.8043 4.61007 12.0001 4.45009L13.7301 2.73009C14.1942 2.26597 14.8237 2.00522 15.4801 2.00522C16.1365 2.00522 16.766 2.26597 17.2301 2.73009C17.6942 3.19422 17.955 3.82372 17.955 4.48009C17.955 5.13647 17.6942 5.76596 17.2301 6.23009L12.6901 10.7801C12.2445 11.2272 11.6441 11.4858 11.0131 11.5026C10.3821 11.5193 9.76879 11.2929 9.30008 10.8701L9.18008 10.7701C8.99045 10.5844 8.73484 10.4817 8.46947 10.4845C8.20411 10.4874 7.95073 10.5955 7.76508 10.7851C7.57943 10.9747 7.47671 11.2303 7.47952 11.4957C7.48234 11.7611 7.59045 12.0144 7.78008 12.2001C7.85272 12.2744 7.92951 12.3445 8.01008 12.4101C8.86476 13.1505 9.96831 13.5395 11.0984 13.4987C12.2285 13.4579 13.3011 12.9903 14.1001 12.1901L18.6501 7.64009C19.4914 6.80417 19.9678 5.66932 19.9753 4.48334C19.9828 3.29736 19.5208 2.15659 18.6901 1.31009Z"
-                                 />
-                        </svg> -->
-
-
+            <div class="third">
+                <a href="https://www.figma.com/file/hZhYfU76Z9VsjrlB6C9qgO/LCS-Design?node-id=0%3A1"
+                    target="_blank">
+                    <div class="five bg-black md:mt-6 sm:mt-6 md:ml-12">
+                        <p class="pt-20 text-3xl font-bold text-center text-white tracking-widest">LC Studio <br>
+                            Design
+                            <span class="font-normal text-xl font-cabin"><br>UI/UX</span>
+                            <span class="flex space-x-5 place-content-center mt-2 saturate-200"><br><svg width="30" height="50" viewBox="0 0 68 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.1617 100C26.3617 100 33.8284 92.5334 33.8284 83.3334V66.6667H17.1617C7.96172 66.6667 0.495056 74.1334 0.495056 83.3334C0.495056 92.5334 7.96172 100 17.1617 100Z" fill="#0ACF83"/>
+    <path d="M0.495056 49.9999C0.495056 40.7999 7.96172 33.3333 17.1617 33.3333H33.8284V66.6665H17.1617C7.96172 66.6665 0.495056 59.1999 0.495056 49.9999Z" fill="#A259FF"/>
+    <path d="M0.495056 16.6667C0.495056 7.46666 7.96172 0 17.1617 0H33.8284V33.3333H17.1617C7.96172 33.3333 0.495056 25.8667 0.495056 16.6667Z" fill="#F24E1E"/>
+    <path d="M33.8284 0H50.4951C59.6951 0 67.1618 7.46666 67.1618 16.6667C67.1618 25.8667 59.6951 33.3333 50.4951 33.3333H33.8284V0Z" fill="#FF7262"/>
+    <path d="M67.1618 49.9999C67.1618 59.1999 59.6951 66.6665 50.4951 66.6665C41.295 66.6665 33.8284 59.1999 33.8284 49.9999C33.8284 40.7999 41.295 33.3333 50.4951 33.3333C59.6951 33.3333 67.1618 40.7999 67.1618 49.9999Z" fill="#1ABCFE"/>
+    </svg>
+    </span>
+                        </p>
                     </div>
-                </div>
-            </a>
+                </a>
+            </div>
         </div>
         <!-- CONTACT PAGE REDIRECT -->
 
         <h1 class="text-left text-4xl uppercase font-light -my-5">get in touch</h1>
         <hr>
-        <p>If you are looking for a designer/developer, <br> or just looking to collab, feel free to send me a message.
+        <p class="text-xl">If you are looking for a designer/developer, <br> or just looking to collab, feel free to send me a message.
         </p>
         <router-link :to="{ name: 'Contact' }"><button class="py-3 px-7 mb-8 text-white my-5">Send a message</button>
         </router-link>
@@ -408,6 +396,7 @@
         }
 
         .projects {
+            width: 85.7%;
             display: grid;
 
             // @include for-size(phone-only) {
@@ -438,7 +427,7 @@
                     background-size: cover;
                     background-repeat: no-repeat;
                     transition: .3s ease all;
-                    width: 300px;
+                    width: 375px;
                     height: 300px;
 
                     &:hover {
@@ -472,7 +461,7 @@
                     background-size: cover;
                     background-repeat: no-repeat;
                     transition: .3s ease all;
-                    width: 300px;
+                    width: 375px;
                     height: 300px;
 
                     &:hover {
@@ -508,7 +497,7 @@
                     background-size: cover;
                     background-repeat: no-repeat;
                     transition: .3s ease all;
-                    width: 300px;
+                    width: 375px;
                     height: 300px;
 
                     &:hover {
@@ -538,11 +527,11 @@
                 .four {
                     filter: saturate(1);
                     background-image: url(../assets/images/projects/a&y.png);
-                    background-position: center;
+                    background-position: left;
                     background-size: cover;
                     background-repeat: no-repeat;
                     transition: .3s ease all;
-                    width: 300px;
+                    width: 375px;
                     height: 300px;
 
                     &:hover {
@@ -570,51 +559,53 @@
                 }
             }
 
-            .five {
-                filter: saturate(1);
-                background-image: url(../assets/images/projects/lcstudio.png);
-                background-position: center;
-                background-size: cover;
-                background-repeat: no-repeat;
-                transition: .3s ease all;
-                width: 300px;
-                height: 300px;
-
-                @media (min-width:770px) {
-                    margin-left: 0;
-                    --tw-space-x-reverse: 0;
-                    margin-right: calc(-3rem * var(--tw-space-x-reverse));
-                    margin-left: calc(-3rem * calc(1 - var(--tw-space-x-reverse)));
-                }
-
-                @media (min-width: 1023px) {
-                    --tw-space-x-reverse: 0;
-                    margin-right: calc(3rem * var(--tw-space-x-reverse));
-                    margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
-                }
-
-                &:hover {
-                    filter: saturate(.5);
-                    // background-position: top left;
+            .third{
+                .five {
+                    filter: saturate(1);
+                    background-image: url(../assets/images/projects/lcstudio.png);
+                    background-position: left;
+                    background-size: cover;
+                    background-repeat: no-repeat;
                     transition: .3s ease all;
-                }
-
-                p {
-                    opacity: 0;
-                    transition: .3s ease all;
-                }
-
-                &,
-                p {
-                    position: relative
-                }
-
-                &:hover p {
-                    opacity: 1;
-                    transition: .3s ease all;
-                    background: rgba($color: #195670, $alpha: .5);
-                    width: 100%;
-                    height: 100%;
+                    width: 375px;
+                    height: 300px;
+    
+                    @media (min-width:770px) {
+                        margin-left: 0;
+                        --tw-space-x-reverse: 0;
+                        margin-right: calc(-3rem * var(--tw-space-x-reverse));
+                        margin-left: calc(-3rem * calc(1 - var(--tw-space-x-reverse)));
+                    }
+    
+                    @media (min-width: 1023px) {
+                        --tw-space-x-reverse: 0;
+                        margin-right: calc(3rem * var(--tw-space-x-reverse));
+                        margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
+                    }
+    
+                    &:hover {
+                        filter: saturate(.5);
+                        // background-position: top left;
+                        transition: .3s ease all;
+                    }
+    
+                    p {
+                        opacity: 0;
+                        transition: .3s ease all;
+                    }
+    
+                    &,
+                    p {
+                        position: relative
+                    }
+    
+                    &:hover p {
+                        opacity: 1;
+                        transition: .3s ease all;
+                        background: rgba($color: #195670, $alpha: .5);
+                        width: 100%;
+                        height: 100%;
+                    }
                 }
             }
         }
