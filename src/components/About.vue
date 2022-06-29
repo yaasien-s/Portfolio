@@ -5,7 +5,7 @@
     <h1 class="font-bold uppercase text-4xl">about me</h1>
     <div class="grid grid-cols-2 gap-6">
       <div class="desc">
-        <p class="text-left text-xl font-extra-light space-y-6">I'm Yaasien, a creative yet structured
+        <p class="text-left font-extra-light space-y-6">I'm Yaasien, a creative yet structured
           developer/designer based in Cape Town. My field of
           expertise lie in Web Development and UI/UX Designing. I have worked on a few projects using my skills to
           produce
@@ -23,11 +23,11 @@
         <hr class="my-4">
         <div class="grid grid-cols-2">
           <div>
-            <p class="font-extrabold text-xl"><span class="text-cyan-700">D.O.B:</span> <br><span class="font-light">11
+            <p class="font-extrabold"><span class="text-cyan-700">D.O.B:</span> <br><span class="font-light">11
                 May 2001</span></p>
           </div>
           <div>
-            <p class="text-xl font-extrabold"><span class="text-cyan-700">Location:</span> <br><span
+            <p class="font-extrabold"><span class="text-cyan-700">Location:</span> <br><span
                 class="font-light">Cape Town, South Africa</span></p>
           </div>
         </div>

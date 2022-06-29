@@ -1,26 +1,27 @@
 <template>
-  <div class="contact grid grid-cols-2 gap-4 pt-14">
+  <div class="contact grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 lg:-space-x-12 pt-14 place-items-center">
       <div class="C-text text-center leading-snug space-y-6">
           <h2 class="text-4xl font-bold pt-12 uppercase">Get in touch</h2>
-          <p class="w-10/12 mx-auto">If you’d like to discuss things further. Please fill out the form and we’ll get back to you as soon as possible.</p>
-          <p>Or contact us directly at:</p>
-          <p><i class="fa-solid fa-at"></i> johndoe@gmail.com</p> <p><i class="fa-solid fa-phone"></i> 0123456789</p>
+          <p class="w-8/12 mx-auto">If you’d like to discuss things further. Please fill out the form and I’ll get back to you as soon as possible.
+            <br>
+          Or contact me directly at:</p>
+          <a href=""><p class="mt-6"><i class="fa-solid fa-at"></i> yaasiensalaam@gmail.com</p></a>
       </div>
       <div class="form mt-14 w-9/12 m-4">
-          <form action="" class="grid shadow-2xl p-12 rounded-xl">
+          <form action="" class="grid shadow-2xl p-12">
               <label for="name">Fullname</label>
-              <input type="text" class="rounded-full mt-2" required>
+              <input type="text" class="mt-2" required>
               <br>
               <label for="email">Email</label>
-              <input type="email" class="rounded-full mt-2" required>
+              <input type="email" class="mt-2" required>
               <br>
               <label for="contact">Contact No.</label>
-              <input type="text" class="rounded-full mt-2" required>
+              <input type="text" class="mt-2" required>
               <br>
               <label for="message">Message</label>
-              <textarea name="" id="" cols="30" rows="5" class="rounded-xl mt-2" required></textarea>
+              <textarea name="" id="" cols="30" rows="5" class="mt-2" required></textarea>
               <br>
-              <button class="py-2.5 px-7 rounded-full w-2/5 text-white">Send</button>
+              <button class="py-2.5 px-7 w-2/5 text-white">Send</button>
           </form>
       </div>
   </div>
@@ -32,7 +33,6 @@
 <style lang="scss" scoped>
 
 .contact{
-    height: 100vh;
 
     h1{
         font-family: 'Poppins', sans-serif;
@@ -50,7 +50,7 @@
             transition: .3s ease all;
 
             &:hover{
-                background: #000;
+                background: #134155;
                 transition: .3s ease all;
             }
         }

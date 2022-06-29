@@ -8,7 +8,7 @@
             <br>
             <span class="font-extralight text-4xl">Junior Software Developer, UI UX Designer</span></h1>
         <br>
-        <router-link :to="{ name: 'About' }"><button class="absolute py-3 px-6 text-white sm:mt-12 md:mt-12">Find out
+        <router-link :to="{ name: 'About' }"><button class="absolute py-3 px-6 text-white sm:mt-12 md:mt-10 lg:mt-0">Find out
                 more</button>
         </router-link>
     </div>
@@ -230,7 +230,7 @@
 
         <h1 class="text-left text-4xl uppercase font-light -my-5">get in touch</h1>
         <hr>
-        <p class="text-xl">If you are looking for a designer/developer, <br> or just looking to collab, feel free to send me a message.
+        <p>If you are looking for a designer/developer, <br> or just looking to collab, feel free to send me a message.
         </p>
         <router-link :to="{ name: 'Contact' }"><button class="py-3 px-7 mb-8 text-white my-5">Send a message</button>
         </router-link>
