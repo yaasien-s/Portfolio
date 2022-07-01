@@ -224,6 +224,14 @@
             margin-left: 3.5%;
           }
         }
+
+        button{
+          transition: .3s ease all;
+          &hover{
+            transition: .3s ease all;
+            background-color: #134155;
+          }
+        }
       }
 
 
