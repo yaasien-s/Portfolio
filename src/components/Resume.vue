@@ -4,6 +4,36 @@
     <h1 class="font- uppercase text-4xl">Resume</h1>
     <div class="resume-details grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-12">
       <div class="col-span-2">
+        <span style="color: #195670;" class="font-bold tracking-wider text-xl">LC Studio</span>
+        <br>
+        <span class="tracking-wider">2021-Present</span>
+        <br><br>
+        <p class="text-lg">I am currently sitting at LC studio(Life Choices DevOps) building a number of projects with and without teams,
+          I've lead teams on certain projects, I've followed on certain projects as well. Right now we are building plugins for the LC Studio website, and I am working my way up as a developer, designer and a freelancer,
+          I am also upskilling in Python and 3D design
+        </p>
+        <br><br>
+          <span style="color: #195670;" class="font-bold tracking-wider text-xl">Arabica Coffee.Co Cape Town</span>
+          <br>
+          <span class="tracking-wider">2017-2022</span>
+          <br><br>
+          <p class="text-lg">
+            Arabica Coffee.Co was established in 2017, I started out as an assistant for the barista, dealing with the
+            money and helping where i could.
+            By the end of 2019, I started working as the barista for the company part-time doing events, weddings, private
+            funtions, etc. I've done design work for them as well, such as banners and digital signatures.
+          </p>
+          <br><br>
+            <span style="color: #195670;" class="font-bold tracking-wider text-xl">Seni Silat Cape Town</span>
+            <br>
+            <span class="tracking-wider">2012-Present</span>
+            <br><br>
+            <p class="text-lg">
+              I started studying martial arts when I was 11, I progressed rapidly and within 4 years I became the assistant instructor.
+              Fought in numerous tournaments and won medals and trophies. I started teaching classes and taking private clients on my own in 2020
+              teaching kids and adults.
+            </p>
+            <br><br>
         <span style="color: #195670;" class="font-bold tracking-wider text-xl">National Senior Certificate</span>
         <br>
         <span class="tracking-wider">2015-2019</span>
@@ -14,35 +44,6 @@
           business, and with that I started my own bakery.
         </p>
         <br><br>
-        <span style="color: #195670;" class="font-bold tracking-wider text-xl">Arabica Coffee.Co Cape Town</span>
-        <br>
-        <span class="tracking-wider">2017-Present</span>
-        <br><br>
-        <p class="text-lg">
-          Arabica Coffee.Co was established in 2017, I started out as an assistant for the barista, dealing with the
-          money and helping where i could.
-          By the end of 2019, I started working as the barista for the company part-time doing events, weddings, private
-          funtions, etc. I've done design work for them as well, such as banners and digital signatures.
-        </p>
-        <br><br>
-        <span style="color: #195670;" class="font-bold tracking-wider text-xl">Seni Silat Cape Town</span>
-        <br>
-        <span class="tracking-wider">2012-Present</span>
-        <br><br>
-        <p class="text-lg">
-          I started studying martial arts when I was 11, I progressed rapidly and within 4 years I became the assistant instructor.
-          Fought in numerous tournaments and won medals and trophies. I started teaching classes and taking private clients on my own in 2020
-          teaching kids and adults.
-        </p>
-        <br><br>
-        <span style="color: #195670;" class="font-bold tracking-wider text-xl">LC Studio</span>
-        <br>
-        <span class="tracking-wider">2021-Present</span>
-        <br><br>
-        <p class="text-lg">I am currently sitting at LC studio(Life Choices DevOps) building a number of projects with and without teams,
-          I've lead teams on certain projects, I've followed on certain projects as well. Right now we are building plugins for the LC Studio website, and I am working my way up as a developer, designer and a freelancer,
-          I am also upskilling in Python and 3D design
-        </p>
       </div>
       <div class="skills md:-space-y-40 sm:space-x-24 md:space-x-0 grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-2">
         <div class="tech-stack">
