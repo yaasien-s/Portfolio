@@ -31,6 +31,8 @@
                 class="font-light">Cape Town, South Africa</span></p>
           </div>
         </div>
+        <br>
+        <p><a href="https://docs.google.com/document/d/1T8YQVrsKe5R1IgvDqwaSvlEj7YtPNfvLB1QrzUdD8fY/edit?usp=sharing" target="_blank"><button class="px-5 py-2.5 text-white" style="background-color: #195670;">Download CV</button></a></p>
       </div>
       <div class="image">
         <img class="mx-auto duration-500 w-6/12 -mt-6" src="../assets/images/Me.png" alt="">
@@ -68,7 +70,7 @@
           <p class="text-left ">
 
             <span class="absolute right-6 space-y-5">
-              <a href="">
+              <a href="https://www.alexsexwale.com/" target="_blank">
                 <svg class="fill-white hover:fill-black duration-300" width="30" height="30" viewBox="0 0 20 20"
                   fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -113,7 +115,7 @@
           <p class="text-left ">
 
             <span class="absolute right-6 space-y-5">
-              <a href="">
+              <a href="https://dev-ddkportfolio.pantheonsite.io/" target="_blank">
                 <svg class="fill-white hover:fill-black duration-300" width="30" height="30" viewBox="0 0 20 20"
                   fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path

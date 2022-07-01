@@ -1,4 +1,4 @@
-    <template>
+<template>
 <div>
     <nav class="text-right p-7 font-light space-x-12 fixed text-black place-content-center">
         <router-link :to="{ name: 'Home' }"><svg class="absolute top-3" width="26" height="46" viewBox="0 0 26 46" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -67,6 +67,10 @@ nav{
     top: 20px;
     padding-right: 3.9rem;
 
+    @include for-size(phone-only){
+        height: fit-content;
+    }
+
     .absolute{
         left: 3.9rem;
     }
@@ -77,7 +81,7 @@ nav{
         transition: .2s ease all;
 
         @include for-size(phone-only) {
-               display: none;
+               display: grid;
             }
 
         &:hover{
