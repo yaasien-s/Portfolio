@@ -230,7 +230,7 @@
 
         <h1 class="text-left text-4xl uppercase font-light -my-5">get in touch</h1>
         <hr>
-        <p>If you are looking for a designer/developer, <br> or just looking to collab, feel free to send me a message.
+        <p class="text-lg">If you are looking for a designer/developer, <br> or just looking to collab, feel free to send me a message.
         </p>
         <router-link :to="{ name: 'Contact' }"><button class="py-3 px-7 mb-8 text-white my-5">Send a message</button>
         </router-link>

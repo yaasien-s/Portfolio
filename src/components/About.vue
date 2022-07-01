@@ -1,11 +1,11 @@
 <template>
   <div class="about py-20 space-y-5">
-    <h2 class="uppercase pt-12 text-md font-extrabold text-cyan-700">{{ name }}
+    <h2 class="uppercase pt-12 text-md font-light text-cyan-700">{{ name }}
       {{ name2 }}</h2>
-    <h1 class="font-bold uppercase text-4xl">about me</h1>
+    <h1 class=" uppercase text-4xl">about me</h1>
     <div class="grid grid-cols-2 gap-6">
       <div class="desc">
-        <p class="text-left font-extra-light space-y-6">I'm Yaasien, a creative yet structured
+        <p class="text-left text-lg font-extra-light space-y-6">I'm Yaasien, a creative yet structured
           developer/designer based in Cape Town. My field of
           expertise lie in Web Development and UI/UX Designing. I have worked on a few projects using my skills to
           produce
