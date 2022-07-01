@@ -32,7 +32,7 @@
           </div>
         </div>
         <br>
-        <p><a href="https://docs.google.com/document/d/1T8YQVrsKe5R1IgvDqwaSvlEj7YtPNfvLB1QrzUdD8fY/edit?usp=sharing" target="_blank"><button class="px-5 py-2.5 text-white" style="background-color: #195670;">Download CV</button></a></p>
+        <p><a href="https://docs.google.com/document/d/1T8YQVrsKe5R1IgvDqwaSvlEj7YtPNfvLB1QrzUdD8fY/edit?usp=sharing" target="_blank"><button class="px-5 py-2.5 text-white">Download CV</button></a></p>
       </div>
       <div class="image">
         <img class="mx-auto duration-500 w-6/12 -mt-6" src="../assets/images/Me.png" alt="">
@@ -225,14 +225,15 @@
           }
         }
 
+      }
         button{
+          background-color: #195670;
           transition: .3s ease all;
-          &hover{
+          &:hover{
             transition: .3s ease all;
-            background-color: #134155;
+            background-color: #134155 !important;
           }
         }
-      }
 
 
       .image {
