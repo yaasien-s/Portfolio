@@ -40,7 +40,7 @@
     </div>
 
     <div class="testimonials space-y-12">
-      <h2 class="text-4xl font-extrabold mt-20">Testimonials</h2>
+      <h2 class="text-4xl uppercase mt-20">Testimonials</h2>
       <div class="gap-6 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
         <div class="test1 place-content-center">
           <p class="text-left ">

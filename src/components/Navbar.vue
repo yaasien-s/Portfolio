@@ -73,6 +73,10 @@ nav{
 
     .absolute{
         left: 3.9rem;
+
+        @include for-size(phone-only){
+            display: none;
+        }
     }
 
 
@@ -81,7 +85,9 @@ nav{
         transition: .2s ease all;
 
         @include for-size(phone-only) {
-               display: grid;
+            //    display: grid;
+               border: none;
+               margin-left: -40px;
             }
 
         &:hover{
