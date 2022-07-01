@@ -42,11 +42,11 @@
     <div class="testimonials space-y-12">
       <h2 class="text-4xl uppercase mt-20">Testimonials</h2>
       <div class="gap-6 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
-        <!-- <div class="test1 place-content-center">
+        <div class="test1 place-content-center">
           <p class="text-left ">
 
             <span class="absolute right-6 space-y-5">
-              <a href="">
+              <a href="https://portfoliov6-547e2.web.app/" target="_blank">
                 <svg class="fill-white hover:fill-black duration-300" width="30" height="30" viewBox="0 0 20 20"
                   fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -65,7 +65,7 @@
             <br>
             <span class="text-base font-bold tracking-widest text-black">Junior Software Developer</span>
           </p>
-        </div> -->
+        </div>
         <div class="test2 place-content-center">
           <p class="text-left ">
 
