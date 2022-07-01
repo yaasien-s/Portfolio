@@ -5,7 +5,7 @@
           <p class="w-8/12 mx-auto">If you’d like to discuss things further. Please fill out the form and I’ll get back to you as soon as possible.
             <br>
           Or contact me directly at:</p>
-          <a href=""><p class="mt-6"><i class="fa-solid fa-at"></i> yaasiensalaam@gmail.com</p></a>
+          <a href="mailto:yaasiensalaam@gmail.com"><p class="mt-6"><i class="fa-solid fa-at"></i> yaasiensalaam@gmail.com</p></a>
       </div>
       <div class="form mt-14 w-9/12 m-4">
           <form action="" class="grid shadow-2xl p-12">

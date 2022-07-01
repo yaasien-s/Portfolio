@@ -1,6 +1,6 @@
 <template>
   <div class="about py-20 space-y-5">
-    <h2 class="font-light uppercase pt-12 text-md font-extrabold text-cyan-700">{{ name }}
+    <h2 class="uppercase pt-12 text-md font-extrabold text-cyan-700">{{ name }}
       {{ name2 }}</h2>
     <h1 class="font-bold uppercase text-4xl">about me</h1>
     <div class="grid grid-cols-2 gap-6">
@@ -91,7 +91,7 @@
           <p class="text-left ">
 
             <span class="absolute right-6 space-y-5">
-              <a href="">
+              <a href="https://dev-p0rtf0li01.pantheonsite.io/" target="_blank">
                 <svg class="fill-white hover:fill-black duration-300" width="30" height="30" viewBox="0 0 20 20"
                   fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -287,7 +287,7 @@
             padding: 15px 80px 0 20px;
             opacity: 1;
             transition: .3s ease all;
-            background: rgba($color: #195670, $alpha: .5);
+            background: rgba($color: #195670, $alpha: .85);
             width: fit-content;
             margin-inline: auto;
             height: 300px;
@@ -326,7 +326,7 @@
             padding: 15px 80px 0 20px;
             opacity: 1;
             transition: .3s ease all;
-            background: rgba($color: #195670, $alpha: .5);
+            background: rgba($color: #195670, $alpha: .85);
             width: fit-content;
             margin-inline: auto;
             height: 300px;
@@ -365,7 +365,7 @@
             padding: 15px 80px 0 20px;
             opacity: 1;
             transition: .3s ease all;
-            background: rgba($color: #195670, $alpha: .5);
+            background: rgba($color: #195670, $alpha: .85);
             width: fit-content;
             margin-inline: auto;
             height: 300px;
@@ -404,7 +404,7 @@
             padding: 15px 80px 0 20px;
             opacity: 1;
             transition: .3s ease all;
-            background: rgba($color: #195670, $alpha: .5);
+            background: rgba($color: #195670, $alpha: .85);
             width: fit-content;
             margin-inline: auto;
             height: 300px;
@@ -443,7 +443,7 @@
             padding: 15px 80px 0 20px;
             opacity: 1;
             transition: .3s ease all;
-            background: rgba($color: #195670, $alpha: .5);
+            background: rgba($color: #195670, $alpha: .85);
             width: fit-content;
             margin-inline: auto;
             height: 300px;
@@ -482,7 +482,7 @@
             padding: 15px 80px 0 20px;
             opacity: 1;
             transition: .3s ease all;
-            background: rgba($color: #195670, $alpha: .5);
+            background: rgba($color: #195670, $alpha: .85);
             width: fit-content;
             margin-inline: auto;
             height: 300px;

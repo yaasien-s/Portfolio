@@ -23,7 +23,7 @@
                     <div class="one bg-black">
                         <p class="pt-24 text-3xl font-bold font-poppins text-center text-white tracking-widest">First
                             Website
-                            <span class="font-normal text-xl font-cabin"><br>Web Development</span>
+                            <span class="font-normal text-xl font-cabin"><br>Web Design</span>
                             <span class="flex space-x-6 place-content-center mt-6 saturate-200">
                                 <svg width="40" height="50" viewBox="0 0 90 100" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -63,7 +63,7 @@
                     <div class="two bg-black">
                         <p class="pt-16 text-3xl font-bold font-poppins text-center text-white tracking-widest">
                             BMI Calculator
-                            <span class="font-normal text-xl font-cabin"><br>Web Development</span>
+                            <span class="font-normal text-xl font-cabin"><br>Web Design, Software Development</span>
                             <span class="flex space-x-6 place-content-center mt-6 saturate-200">
                                 <svg width="40" height="50" viewBox="0 0 90 100" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -121,7 +121,7 @@
                     <div class="three bg-black">
                         <p class="pt-16 text-3xl font-bold font-poppins text-center text-white tracking-widest">
                             Peacful Watches
-                            <span class="font-normal text-xl font-cabin"><br>Web Development</span>
+                            <span class="font-normal text-xl font-cabin"><br>Web Design</span>
                             <span class="flex space-x-6 place-content-center mt-6 saturate-200">
                                 <svg width="40" height="50" viewBox="0 0 90 100" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -168,9 +168,9 @@
                 <br>
                 <a href="https://ay-coffee-company-a4ff7.web.app/#/" target="_blank">
                     <div class="four bg-black">
-                        <p class="pt-20 text-3xl font-bold font-poppins text-center text-white tracking-widest">
+                        <p class="pt-16 text-3xl font-bold font-poppins text-center text-white tracking-widest">
                             A & Y Coffee
-                            <span class="font-normal text-xl font-cabin"><br>Software Development</span>
+                            <span class="font-normal text-xl font-cabin"><br>Web Design, Software Development</span>
                             <span class="flex space-x-5 place-content-center mt-6 saturate-200">
                                 <svg width="50" height="40" viewBox="0 0 101 87" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M80.9329 0.469238H100.933L50.9329 86.7192L0.932861 0.469238H39.1829L50.9329 20.4692L62.4329 0.469238H80.9329Z" fill="#41B883"/>
@@ -212,7 +212,7 @@
                     <div class="five bg-black md:mt-6 sm:mt-6 md:ml-12">
                         <p class="pt-20 text-3xl font-bold text-center text-white tracking-widest">LC Studio <br>
                             Design
-                            <span class="font-normal text-xl font-cabin"><br>UI/UX</span>
+                            <span class="font-normal text-xl font-cabin"><br>UI/UX Design</span>
                             <span class="flex space-x-5 place-content-center mt-2 saturate-200"><br><svg width="30" height="50" viewBox="0 0 68 100" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M17.1617 100C26.3617 100 33.8284 92.5334 33.8284 83.3334V66.6667H17.1617C7.96172 66.6667 0.495056 74.1334 0.495056 83.3334C0.495056 92.5334 7.96172 100 17.1617 100Z" fill="#0ACF83"/>
     <path d="M0.495056 49.9999C0.495056 40.7999 7.96172 33.3333 17.1617 33.3333H33.8284V66.6665H17.1617C7.96172 66.6665 0.495056 59.1999 0.495056 49.9999Z" fill="#A259FF"/>
@@ -448,7 +448,7 @@
                     &:hover p {
                         opacity: 1;
                         transition: .3s ease all;
-                        background: rgba($color: #195670, $alpha: .5);
+                        background: rgba($color: #195670, $alpha: .85);
                         width: 100%;
                         height: 100%;
                     }
@@ -482,7 +482,7 @@
                     &:hover p {
                         opacity: 1;
                         transition: .3s ease all;
-                        background: rgba($color: #195670, $alpha: .5);
+                        background: rgba($color: #195670, $alpha: .85);
                         width: 100%;
                         height: 100%;
                     }
@@ -518,7 +518,7 @@
                     &:hover p {
                         opacity: 1;
                         transition: .3s ease all;
-                        background: rgba($color: #195670, $alpha: .5);
+                        background: rgba($color: #195670, $alpha: .85);
                         width: 100%;
                         height: 100%;
                     }
@@ -552,7 +552,7 @@
                     &:hover p {
                         opacity: 1;
                         transition: .3s ease all;
-                        background: rgba($color: #195670, $alpha: .5);
+                        background: rgba($color: #195670, $alpha: .85);
                         width: 100%;
                         height: 100%;
                     }
@@ -602,7 +602,7 @@
                     &:hover p {
                         opacity: 1;
                         transition: .3s ease all;
-                        background: rgba($color: #195670, $alpha: .5);
+                        background: rgba($color: #195670, $alpha: .85);
                         width: 100%;
                         height: 100%;
                     }
