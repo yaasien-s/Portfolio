@@ -42,7 +42,7 @@
     <div class="testimonials space-y-12">
       <h2 class="text-4xl uppercase mt-20">Testimonials</h2>
       <div class="gap-6 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
-        <div class="test1 place-content-center">
+        <!-- <div class="test1 place-content-center">
           <p class="text-left ">
 
             <span class="absolute right-6 space-y-5">
@@ -65,7 +65,7 @@
             <br>
             <span class="text-base font-bold tracking-widest text-black">Junior Software Developer</span>
           </p>
-        </div>
+        </div> -->
         <div class="test2 place-content-center">
           <p class="text-left ">
 
@@ -133,7 +133,7 @@
             <span class="text-base font-bold tracking-widest text-black">Writer, Aspiring UI/UX Designer</span>
           </p>
         </div>
-        <div class="test5 place-content-center">
+        <!-- <div class="test5 place-content-center">
           <p class="text-left ">
 
             <span class="absolute right-6 space-y-5">
@@ -154,8 +154,8 @@
             <br>
             <span class="text-base font-bold tracking-widest text-black">Aspiring UI/UX Designer</span>
           </p>
-        </div>
-        <div class="test6 place-content-center">
+        </div> -->
+        <!-- <div class="test6 place-content-center">
           <p class="text-left">
 
             <span class="absolute right-6 space-y-5">
@@ -176,7 +176,7 @@
             <br>
             <span class="text-base font-bold tracking-widest text-black">Assistant Lecturer, Aspiring Software developer</span>
           </p>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
