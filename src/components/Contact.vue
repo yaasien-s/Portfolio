@@ -6,7 +6,7 @@
 </p>
           <br><br>
           <span style="color: #195670;" class="text-sm font-medium">Email:</span>
-          <a href="mailto:yaasiensalaam@gmail.com"><p class="mb-16 mt-6"><i class="fa-solid fa-at"></i> yaasiensalaam@gmail.com</p></a>
+          <a href="mailto:yaasiensalaam@gmail.com"><p class="mb-20 mt-6"><i class="fa-solid fa-at"></i> yaasiensalaam@gmail.com</p></a>
       </div>
 
   </div>
