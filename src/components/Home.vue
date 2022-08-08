@@ -11,8 +11,9 @@
         <router-link :to="{ name: 'About' }"><button class="absolute py-3 px-6 text-white sm:mt-12 md:mt-10 lg:mt-0">Find out
                 more</button>
         </router-link>
+        <a href="#Home-2"><i class="fa-solid fa-chevron-down animate-bounce absolute md:text-3xl lg:text-4xl"></i></a>
     </div>
-    <div class="home-2 text-black">
+    <div id="Home-2" class="home-2 text-black">
         <!-- PROJECTS SECTION -->
         <h1 class="text-left text-4xl font-light uppercase">Projects</h1>
 
@@ -355,6 +356,12 @@
                 background-position: left;
             }
 
+        }
+
+        i{
+            left: 50%;
+            top: 80%;
+            color: white;
         }
 
         button {
