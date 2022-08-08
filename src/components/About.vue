@@ -18,7 +18,7 @@
           websites and applications. I have knowledge with Adobe Creative Suite for UI Design projects. Currently
           I am learning how to use and understand Adobe Premiere for video editing, and Spline for 3D designing.
           <br><br>
-          Other than work, I enjoy gaming, photography, martial arts and learning new things, and recently discovering a small hobby of 3D designing.
+          Other than work, I enjoy gaming, streaming, photography, martial arts and learning new things, and recently discovering a small hobby of 3D designing.
         </p>
         <hr class="my-4">
         <div class="grid grid-cols-2">

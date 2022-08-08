@@ -8,9 +8,9 @@
         <br>
         <span class="tracking-wider">2021-Present</span>
         <br><br>
-        <p class="text-lg">I am currently sitting at LC studio(Life Choices DevOps) building a number of projects with and without teams,
-          I've lead teams on certain projects, I've followed on certain projects as well. Right now we are building plugins for the LC Studio website, and I am working my way up as a developer, designer and a freelancer,
-          I am also upskilling in Python and 3D design
+        <p class="text-lg">I am currently sitting at LC studio building a number of projects with and without teams,
+          I've lead teams on certain projects, I've followed on certain projects as well. Right now I am designing a prototype for a client website using figma, and I am working my way up as a developer, designer and a freelancer,
+          I am also upskilling in 3D design, and prototyping.
         </p>
         <br><br>
           <span style="color: #195670;" class="font-bold tracking-wider text-xl">Arabica Coffee.Co Cape Town</span>

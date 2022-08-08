@@ -19,7 +19,7 @@
 
 .contact{
     @media (min-height:710px) {
-        height: 90vh;
+        height: 68.6vh;
 
     }
 

@@ -6,7 +6,7 @@
             {{ name }}
             {{ name2 }}
             <br>
-            <span class="font-extralight text-4xl">Junior Software Developer, UI UX Designer</span></h1>
+            <span class="font-extralight text-4xl">Junior Web Developer, UI UX Designer</span></h1>
         <br>
         <router-link :to="{ name: 'About' }"><button class="absolute py-3 px-6 text-white sm:mt-12 md:mt-10 lg:mt-0">Find out
                 more</button>
@@ -422,8 +422,8 @@
             .first {
                 .one {
                     filter: saturate(1);
-                    background-image: url(../assets/images/projects/first-port.jpg);
-                    background-position: center;
+                    background-image: url(../assets/images/projects/first-port.png);
+                    background-position: top;
                     background-size: cover;
                     background-repeat: no-repeat;
                     transition: .3s ease all;
