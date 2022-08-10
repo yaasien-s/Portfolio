@@ -3,7 +3,7 @@
       <footer>
           <div class="space-x-12 text-2xl text-white">
           <a href="https://www.instagram.com/yaasien_salaam/" target="_blank"><i class="fa-brands fa-instagram px-2.5 py-2 rounded-full"></i></a>
-          <a href="https://www.linkedin.com/in/muhammad-yaasien-s-4587aa133/" target="_blank"><i class="fa-brands fa-linkedin-in px-2.5 py-2 rounded-full"></i></a>
+          <a href="https://www.linkedin.com/in/yaasien-salaam/" target="_blank"><i class="fa-brands fa-linkedin-in px-2.5 py-2 rounded-full"></i></a>
           </div>
         <p class="text-sm mt-6 text-white">© 2022 Yaasien Salaam. All rights reserved</p>
       </footer>
