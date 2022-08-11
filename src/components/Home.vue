@@ -6,7 +6,7 @@
             {{ name }}
             {{ name2 }}
             <br>
-            <span class="font-extralight text-4xl">Junior Web Developer, UI UX Designer</span></h1>
+            <span class="font-extralight text-4xl">Aspiring Junior Web Developer, UI UX Designer</span></h1>
         <br>
         <router-link :to="{ name: 'About' }"><button class="absolute py-3 px-6 text-white sm:mt-12 md:mt-10 lg:mt-0">Find out
                 more</button>
@@ -437,6 +437,10 @@
                     width: 375px;
                     height: 300px;
 
+                    @media (min-width: 1440px) {
+                        width: 500px;
+                    }
+
                     &:hover {
                         filter: saturate(.5);
                         transition: .3s ease all;
@@ -470,6 +474,10 @@
                     transition: .3s ease all;
                     width: 375px;
                     height: 300px;
+
+                    @media (min-width: 1440px) {
+                        width: 500px;
+                    }
 
                     &:hover {
                         filter: saturate(.5);
@@ -507,6 +515,10 @@
                     width: 375px;
                     height: 300px;
 
+                    @media (min-width: 1440px) {
+                        width: 500px;
+                    }
+
                     &:hover {
                         filter: saturate(.5);
                         transition: .3s ease all;
@@ -540,6 +552,10 @@
                     transition: .3s ease all;
                     width: 375px;
                     height: 300px;
+
+                    @media (min-width: 1440px) {
+                        width: 500px;
+                    }
 
                     &:hover {
                         filter: saturate(.5);
@@ -576,6 +592,10 @@
                     transition: .3s ease all;
                     width: 375px;
                     height: 300px;
+
+                    @media (min-width: 1440px) {
+                        width: 500px;
+                    }
     
                     @media (min-width:770px) {
                         margin-left: 0;
