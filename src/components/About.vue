@@ -3,7 +3,7 @@
     <h2 class="uppercase pt-12 text-md font-bold" style="color:#1B383A;
     opacity: 75%;">{{ name }}
       {{ name2 }}</h2>
-    <h1 class=" uppercase text-4xl" style="color:#1B383A;">about me</h1>
+    <h1 class=" uppercase font-bold text-4xl" style="color:#1B383A;">about me</h1>
     <div class="grid grid-cols-2 gap-6">
       <div class="desc">
         <p class="text-left text-lg font-extra-light space-y-6">I'm Yaasien, a creative yet structured
@@ -43,7 +43,7 @@
     </div>
 
     <div class="testimonials space-y-12">
-      <h2 class="text-4xl uppercase mt-20">Testimonials</h2>
+      <h2 class="text-4xl uppercase mt-20 font-bold">Testimonials</h2>
       <div class="gap-6 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
         <div class="test1 place-content-center">
           <p class="text-left ">
@@ -255,18 +255,18 @@
     }
 
     h1 {
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Nunito', sans-serif;
       margin-left: 7%;
     }
 
     h2 {
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Nunito', sans-serif;
       margin-left: 7%;
       color: rgba($color: #1B383A, $alpha: 1);
     }
 
     p {
-      font-family: 'Cabin', sans-serif;
+      font-family: 'Open Sans', sans-serif;
       margin-left: 7%;
     }
 
@@ -293,6 +293,7 @@
             padding: 100px;
             opacity: 0;
             transition: .3s ease all;
+            font-family: 'Cabin', sans-serif;
           }
 
           &,
@@ -335,6 +336,7 @@
             padding: 100px;
             opacity: 0;
             transition: .3s ease all;
+            font-family: 'Cabin', sans-serif;
           }
 
           &,
@@ -377,6 +379,7 @@
             padding: 100px;
             opacity: 0;
             transition: .3s ease all;
+            font-family: 'Cabin', sans-serif;
           }
 
           &,
@@ -419,6 +422,7 @@
             padding: 100px;
             opacity: 0;
             transition: .3s ease all;
+            font-family: 'Cabin', sans-serif;
           }
 
           &,
@@ -459,6 +463,7 @@
           p {
             opacity: 0;
             transition: .3s ease all;
+            font-family: 'Cabin', sans-serif;
           }
 
           &,
@@ -498,6 +503,7 @@
           p {
             opacity: 0;
             transition: .3s ease all;
+            font-family: 'Cabin', sans-serif;
           }
 
           &,

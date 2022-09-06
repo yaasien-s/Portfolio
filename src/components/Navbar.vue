@@ -55,7 +55,7 @@ export default {
         }
     }
 nav{
-    font-family: 'cabin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: rgba($color: #F5F3EE, $alpha: .75);
     width: 95%;
     z-index: 1000;

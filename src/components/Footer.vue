@@ -18,12 +18,15 @@ export default {
 
 <style lang="scss" scoped>
 footer{
-    font-family: 'Cabin', sans-serif;
     font-weight: lighter;
     background: #1B383A;
     padding: 25px;
     text-transform: uppercase;
     color: #F5F3EE;
+    
+    p{
+        font-family: 'Open Sans', sans-serif;
+    }
 
     i{
         border: 2px solid rgba($color: #F5F3EE, $alpha: .5);

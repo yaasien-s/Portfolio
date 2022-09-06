@@ -1,12 +1,12 @@
 <template>
     <div class="home">
         <div class="landing"></div>
-        <h1 class="mb-6 leading-tight text-5xl font-extrabold text-white uppercase"><span
-                class="font-extralight text-4xl">Hi. I am</span>
+        <h1 class="mb-6 leading-tight text-5xl font-bold text-white uppercase"><span
+                class="font-normal text-4xl">Hi. I am</span>
             {{ name }}
             {{ name2 }}
             <br>
-            <span class="font-extralight text-4xl">Aspiring Junior Web Developer,
+            <span class="font-normal text-4xl">Aspiring Junior Web Developer,
                 <br>
                  UI UX Designer</span></h1>
         <br>
@@ -17,7 +17,7 @@
     </div>
     <div id="Home-2" class="home-2 text-black">
         <!-- PROJECTS SECTION -->
-        <h1 class="text-left text-4xl font-light uppercase">Projects</h1>
+        <h1 class="text-left text-4xl font-bold uppercase">Projects</h1>
 
         <div
             class="projects grid grid-cols-1 md:grid-cols-2 md:space-x-12 lg:grid-cols-3 -gap-6 place-items-center my-12 mx-auto lg:pr-12">
@@ -231,7 +231,7 @@
         </div>
         <!-- CONTACT PAGE REDIRECT -->
 
-        <h1 class="text-left text-4xl uppercase font-light -my-5">get in touch</h1>
+        <h1 class="text-left text-4xl uppercase font-bold -my-5">get in touch</h1>
         <hr>
         <p class="text-lg">If you are looking for a designer/developer, <br> or just looking to collab, feel free to send me a message.
         </p>
@@ -341,12 +341,12 @@
             position: absolute;
             left: 7%;
             top: 35%;
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Nunito', sans-serif;
             color: #1B383A;
 
             span {
                 font-weight: thin;
-                font-family: 'Poppins', sans-serif;
+                font-family: 'Nunito', sans-serif;
                 width: auto;
 
                 @include for-size(phone-only) {
@@ -372,7 +372,7 @@
         button {
             left: 7%;
             top: 70%;
-            font-family: 'cabin', sans-serif;
+            font-family: 'Open Sans', sans-serif;
             border-radius: 10px;
             background: rgba($color: #E1895D, $alpha: 1.0);
             transition: .3s ease all;
@@ -399,7 +399,7 @@
         button {
             background-color: #E1895D;
             margin-left: 7%;
-            font-family: 'Cabin', sans-serif;
+            font-family: 'Open Sans', sans-serif;
             transition: .2s ease all;
             border-radius: 10px;
 
@@ -425,11 +425,11 @@
 
             p {
                 text-transform: uppercase;
-                font-family: 'Poppins', sans-serif;
+                font-family: 'Nunito', sans-serif;
 
                 span {
                     text-transform: capitalize;
-                    font-family: 'Cabin', sans-serif;
+                    font-family: 'Open Sans', sans-serif;
                 }
             }
 
@@ -662,7 +662,7 @@
         h1 {
             // position: relative;
             padding: 4% 7%;
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Nunito', sans-serif;
             color: #1B383A;
 
             @include for-size(phone-only) {
@@ -673,7 +673,7 @@
         p {
             margin-inline: auto;
             width: 86%;
-            font-family: 'Cabin', sans-serif;
+            font-family: 'Open Sans', sans-serif;
 
         }
 

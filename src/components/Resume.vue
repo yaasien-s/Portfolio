@@ -1,7 +1,7 @@
 <template>
-  <div class="resume py-12 space-y-5">
+  <div class="resume py-20 space-y-5">
     <h2 class="font-bold uppercase pt-12 text-base">resume</h2>
-    <h1 class="font- uppercase text-4xl">Resume</h1>
+    <h1 class="font-bold uppercase text-4xl">Resume</h1>
     <div class="resume-details grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-12">
       <div class="col-span-2">
         <span style="color: #E1895D;" class="font-bold tracking-wider text-xl">LC Studio</span>
@@ -106,6 +106,9 @@
 
 <style lang="scss" scoped>
   .resume {
+    span{
+      font-family: 'Open Sans', sans-serif;
+    }
     // height: 100vh;
 
     .skills{
@@ -128,7 +131,7 @@
     }
 
     h1 {
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Nunito', sans-serif;
       margin-left: 6.7%;
       color: #1B383A;
     }
@@ -136,12 +139,12 @@
     h2 {
       color: #1B383A;
       opacity: 75%;
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Nunito', sans-serif;
       margin-left: 7%;
     }
 
     p {
-      font-family: 'Cabin', sans-serif;
+      font-family: 'Open Sans', sans-serif;
       margin-left: 7%;
     }
   }
