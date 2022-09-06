@@ -330,6 +330,7 @@
             object-fit: cover;
             height: 100vh;
             mix-blend-mode: overlay;
+            box-shadow: inset 0px -8px 16px rgba(0, 0, 0, 0.1);
 
             @include for-size(phone-only) {
                 background-position: left;
@@ -390,8 +391,7 @@
 
     .home-2 {
         position: relative;
-        background-color: #F5F3EE;
-        box-shadow: 0px -8px 24px rgba(0, 0, 0, 0.15);
+        // background-color: #F5F3EE;
         // height: 100vh;
         // z-index: 50;
 
