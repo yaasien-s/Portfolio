@@ -333,7 +333,7 @@
             box-shadow: inset 0px -8px 16px rgba(0, 0, 0, 0.1);
 
             @include for-size(phone-only) {
-                background-position: left;
+                background-position: right;
             }
         }
 
@@ -358,6 +358,7 @@
             @include for-size(phone-only) {
                 font-size: 2rem;
                 background-position: left;
+                text-shadow: 8px 4px 8px rgba(0, 0, 0, 0.25);
             }
 
         }
