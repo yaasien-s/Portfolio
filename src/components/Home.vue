@@ -6,7 +6,9 @@
             {{ name }}
             {{ name2 }}
             <br>
-            <span class="font-extralight text-4xl">Aspiring Junior Web Developer, UI UX Designer</span></h1>
+            <span class="font-extralight text-4xl">Aspiring Junior Web Developer,
+                <br>
+                 UI UX Designer</span></h1>
         <br>
         <router-link :to="{ name: 'About' }"><button class="absolute py-3 px-6 text-white sm:mt-12 md:mt-10 lg:mt-0">Find out
                 more</button>
@@ -22,7 +24,7 @@
             <div class="first">
                 <a href="https://yaasien-1.netlify.app/" target="_blank">
                     <div class="one bg-black">
-                        <p class="pt-24 text-3xl font-bold font-poppins text-center text-white tracking-widest">First
+                        <p class="pt-20 text-3xl font-bold font-poppins text-center text-white tracking-widest">First
                             Website
                             <span class="font-normal text-xl font-cabin"><br>Web Design</span>
                             <span class="flex space-x-6 place-content-center mt-6 saturate-200">
@@ -320,7 +322,7 @@
         }
 
         .landing {
-            background-image: url('../assets/images/portbg.png');
+            background-image: url('../assets/images/Home.png');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -337,8 +339,9 @@
         h1 {
             position: absolute;
             left: 7%;
-            top: 40%;
+            top: 35%;
             font-family: 'Poppins', sans-serif;
+            color: #1B383A;
 
             span {
                 font-weight: thin;
@@ -361,14 +364,15 @@
         i{
             left: 50%;
             top: 80%;
-            color: white;
+            color: #1B383A;
         }
 
         button {
             left: 7%;
-            top: 60%;
+            top: 70%;
             font-family: 'cabin', sans-serif;
-            background: rgba($color: #195670, $alpha: 1.0);
+            border-radius: 10px;
+            background: rgba($color: #E1895D, $alpha: 1.0);
             transition: .3s ease all;
 
             @media (max-width:400px) {
@@ -376,7 +380,7 @@
             }
 
             &:hover {
-                background: #134155;
+                background: #dd682d;
                 transition: .3s ease all;
             }
         }
@@ -386,18 +390,20 @@
 
     .home-2 {
         position: relative;
-        background-color: #ffffff;
+        background-color: #F5F3EE;
+        box-shadow: 0px -8px 24px rgba(0, 0, 0, 0.15);
         // height: 100vh;
         // z-index: 50;
 
         button {
-            background-color: #195670;
+            background-color: #E1895D;
             margin-left: 7%;
             font-family: 'Cabin', sans-serif;
             transition: .2s ease all;
+            border-radius: 10px;
 
             &:hover {
-                background-color: #134155;
+                background-color: #dd682d;
                 transition: .2s ease all;
             }
         }
@@ -430,6 +436,7 @@
                 .one {
                     filter: saturate(1);
                     background-image: url(../assets/images/projects/first-port.png);
+                    border-radius: 20px;
                     background-position: top;
                     background-size: cover;
                     background-repeat: no-repeat;
@@ -442,13 +449,14 @@
                     }
 
                     &:hover {
-                        filter: saturate(.5);
+                        filter: saturate(.7);
                         transition: .3s ease all;
                     }
 
                     p {
                         opacity: 0;
                         transition: .3s ease all;
+                        text-shadow: 8px 8px 16px rgba(0, 0, 0, .25);
                     }
 
                     &,
@@ -457,9 +465,10 @@
                     }
 
                     &:hover p {
+                        border-radius: 20px;
                         opacity: 1;
                         transition: .3s ease all;
-                        background: rgba($color: #195670, $alpha: .85);
+                        background: rgba($color: #1B383A, $alpha: .85);
                         width: 100%;
                         height: 100%;
                     }
@@ -468,6 +477,7 @@
                 .two {
                     filter: saturate(1);
                     background-image: url(../assets/images/projects/BMI.png);
+                    border-radius: 20px;
                     background-position: center;
                     background-size: cover;
                     background-repeat: no-repeat;
@@ -480,13 +490,14 @@
                     }
 
                     &:hover {
-                        filter: saturate(.5);
+                        filter: saturate(.7);
                         transition: .3s ease all;
                     }
 
                     p {
                         opacity: 0;
                         transition: .3s ease all;
+                        text-shadow: 8px 8px 16px rgba(0, 0, 0, .25);
                     }
 
                     &,
@@ -495,9 +506,10 @@
                     }
 
                     &:hover p {
+                        border-radius: 20px;
                         opacity: 1;
                         transition: .3s ease all;
-                        background: rgba($color: #195670, $alpha: .85);
+                        background: rgba($color: #1B383A, $alpha: .85);
                         width: 100%;
                         height: 100%;
                     }
@@ -508,6 +520,7 @@
                 .three {
                     filter: saturate(1);
                      background-image: url(../assets/images/projects/peaceful-w.jpg);
+                     border-radius: 20px;
                     background-position: center;
                     background-size: cover;
                     background-repeat: no-repeat;
@@ -520,13 +533,14 @@
                     }
 
                     &:hover {
-                        filter: saturate(.5);
+                        filter: saturate(.7);
                         transition: .3s ease all;
                     }
 
                     p {
                         opacity: 0;
                         transition: .3s ease all;
+                        text-shadow: 8px 8px 16px rgba(0, 0, 0, .25);
                     }
 
                     &,
@@ -535,9 +549,10 @@
                     }
 
                     &:hover p {
+                        border-radius: 20px;
                         opacity: 1;
                         transition: .3s ease all;
-                        background: rgba($color: #195670, $alpha: .85);
+                        background: rgba($color: #1B383A, $alpha: .85);
                         width: 100%;
                         height: 100%;
                     }
@@ -546,6 +561,7 @@
                 .four {
                     filter: saturate(1);
                     background-image: url(../assets/images/projects/a&y.png);
+                    border-radius: 20px;
                     background-position: left;
                     background-size: cover;
                     background-repeat: no-repeat;
@@ -558,13 +574,14 @@
                     }
 
                     &:hover {
-                        filter: saturate(.5);
+                        filter: saturate(.7);
                         transition: .3s ease all;
                     }
 
                     p {
                         opacity: 0;
                         transition: .3s ease all;
+                        text-shadow: 8px 8px 16px rgba(0, 0, 0, .25);
                     }
 
                     &,
@@ -573,9 +590,10 @@
                     }
 
                     &:hover p {
+                        border-radius: 20px;
                         opacity: 1;
                         transition: .3s ease all;
-                        background: rgba($color: #195670, $alpha: .85);
+                        background: rgba($color: #1B383A, $alpha: .85);
                         width: 100%;
                         height: 100%;
                     }
@@ -586,6 +604,7 @@
                 .five {
                     filter: saturate(1);
                     background-image: url(../assets/images/projects/lcstudio.png);
+                    border-radius: 20px;
                     background-position: left;
                     background-size: cover;
                     background-repeat: no-repeat;
@@ -611,7 +630,7 @@
                     }
     
                     &:hover {
-                        filter: saturate(.5);
+                        filter: saturate(.7);
                         // background-position: top left;
                         transition: .3s ease all;
                     }
@@ -619,6 +638,7 @@
                     p {
                         opacity: 0;
                         transition: .3s ease all;
+                        text-shadow: 8px 8px 16px rgba(0, 0, 0, .25);
                     }
     
                     &,
@@ -627,9 +647,10 @@
                     }
     
                     &:hover p {
+                        border-radius: 20px;
                         opacity: 1;
                         transition: .3s ease all;
-                        background: rgba($color: #195670, $alpha: .85);
+                        background: rgba($color: #1B383A, $alpha: .85);
                         width: 100%;
                         height: 100%;
                     }
@@ -641,6 +662,7 @@
             // position: relative;
             padding: 4% 7%;
             font-family: 'Poppins', sans-serif;
+            color: #1B383A;
 
             @include for-size(phone-only) {
                 font-size: 1.5rem;
@@ -655,7 +677,7 @@
         }
 
         hr {
-            border: 2px solid black;
+            border: 2px solid #000;
             width: 100px;
             margin-left: 7%;
             margin-bottom: 2%;

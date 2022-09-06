@@ -1,8 +1,9 @@
 <template>
   <div class="about py-20 space-y-5">
-    <h2 class="uppercase pt-12 text-md font-light text-cyan-700">{{ name }}
+    <h2 class="uppercase pt-12 text-md font-bold" style="color:#1B383A;
+    opacity: 75%;">{{ name }}
       {{ name2 }}</h2>
-    <h1 class=" uppercase text-4xl">about me</h1>
+    <h1 class=" uppercase text-4xl" style="color:#1B383A;">about me</h1>
     <div class="grid grid-cols-2 gap-6">
       <div class="desc">
         <p class="text-left text-lg font-extra-light space-y-6">I'm Yaasien, a creative yet structured
@@ -23,11 +24,13 @@
         <hr class="my-4">
         <div class="grid grid-cols-2">
           <div>
-            <p class="font-extrabold"><span class="text-cyan-700">D.O.B:</span> <br><span class="font-light">11
+            <p class="font-extrabold"><span style="color: #1B383A;
+            opacity: 75%;">D.O.B:</span> <br><span class="font-light">11
                 May 2001</span></p>
           </div>
           <div>
-            <p class="font-extrabold"><span class="text-cyan-700">Location:</span> <br><span
+            <p class="font-extrabold"><span style="color: #1B383A;
+            opacity: 75%;">Location:</span> <br><span
                 class="font-light">Cape Town, South Africa</span></p>
           </div>
         </div>
@@ -35,7 +38,7 @@
         <p><a href="https://docs.google.com/document/d/1T8YQVrsKe5R1IgvDqwaSvlEj7YtPNfvLB1QrzUdD8fY/edit?usp=sharing" target="_blank"><button class="px-5 py-2.5 text-white">Download CV</button></a></p>
       </div>
       <div class="image">
-        <img class="mx-auto duration-500 w-6/12 -mt-6" src="../assets/images/Me.png" alt="">
+        <img class="mx-auto duration-500 w-7.5/12 -mt-6" src="../assets/images/Me.png" alt="">
       </div>
     </div>
 
@@ -55,7 +58,7 @@
               </a>
 
             </span>
-            <span class="text-3xl font-extrabold tracking-wider text-black">Abdul-Muhaymien Salaam</span>
+            <span class="text-3xl font-extrabold tracking-wider" style="color: #E1895D;">Abdul-Muhaymien Salaam</span>
             <br>
             <span class="my-6">
               Yaasien has a unique way of solving complex problems that others tend to miss. That ability
@@ -63,7 +66,7 @@
               always looking to improve himself and learn more.
             </span>
             <br>
-            <span class="text-base font-bold tracking-widest text-black">Junior Software Developer</span>
+            <span class="text-base font-bold tracking-widest" style="color: #E1895D;">Junior Software Developer</span>
           </p>
         </div>
         <div class="test2 place-content-center">
@@ -79,14 +82,14 @@
               </a>
 
             </span>
-            <span class="text-3xl font-extrabold tracking-wider text-black">Alex Sexwale</span>
+            <span class="text-3xl font-extrabold tracking-wider" style="color: #E1895D;">Alex Sexwale</span>
             <br>
             <span class="my-6">
               Yaasien is committed to helping others as well as producing quality work. He thrives to always doing his
               best.
             </span>
             <br>
-            <span class="text-base font-bold tracking-widest text-black">Senior Software Developer</span>
+            <span class="text-base font-bold tracking-widest" style="color: #E1895D;">Senior Software Developer</span>
           </p>
         </div>
         <div class="test3 place-content-center">
@@ -102,13 +105,13 @@
               </a>
 
             </span>
-            <span class="text-3xl font-extrabold tracking-wider text-black">Cameron Bowers</span>
+            <span class="text-3xl font-extrabold tracking-wider" style="color: #E1895D;">Cameron Bowers</span>
             <br>
             <span class="my-6">
               Yaasien is committed to helping others as well as producing quality work. He thrives to always doing his best.
             </span>
             <br>
-            <span class="text-base font-bold tracking-widest text-black">Aspiring Software Developer</span>
+            <span class="text-base font-bold tracking-widest" style="color: #E1895D;">Aspiring Software Developer</span>
           </p>
         </div>
         <div class="test4 place-content-center">
@@ -124,13 +127,13 @@
               </a>
 
             </span>
-            <span class="text-3xl font-extrabold tracking-wider text-black">Dale De Kock</span>
+            <span class="text-3xl font-extrabold tracking-wider" style="color: #E1895D;">Dale De Kock</span>
             <br>
             <span class="my-6">
               Yaasien works with speed, still producing extremely high quality work. He then turns his attention to helping others. A fantastic addition to any team.
             </span>
             <br>
-            <span class="text-base font-bold tracking-widest text-black">Writer, Aspiring UI/UX Designer</span>
+            <span class="text-base font-bold tracking-widest" style="color: #E1895D;">Writer, Aspiring UI/UX Designer</span>
           </p>
         </div>
         <!-- <div class="test5 place-content-center">
@@ -227,11 +230,12 @@
 
       }
         button{
-          background-color: #195670;
+          background-color: #E1895D;
           transition: .3s ease all;
+          border-radius: 10px;
           &:hover{
             transition: .3s ease all;
-            background-color: #134155 !important;
+            background-color: #dd682d !important;
           }
         }
 
@@ -258,6 +262,7 @@
     h2 {
       font-family: 'Poppins', sans-serif;
       margin-left: 7%;
+      color: rgba($color: #1B383A, $alpha: 1);
     }
 
     p {
@@ -272,6 +277,7 @@
 
         .test1 {
           background-image: url(../assets/images/testimonial/Abdul.jpg);
+          border-radius: 20px;
           background-position: top;
           background-size: cover;
           background-repeat: no-repeat;
@@ -284,6 +290,7 @@
           }
 
           p {
+            padding: 100px;
             opacity: 0;
             transition: .3s ease all;
           }
@@ -291,14 +298,15 @@
           &,
           p {
             position: relative;
-            color: rgba($color: #ffffff, $alpha: 1);
+            color: rgba($color: #F5F3EE, $alpha: 1);
           }
 
           &:hover p {
             padding: 15px 80px 0 20px;
+            border-radius: 20px;
             opacity: 1;
             transition: .3s ease all;
-            background: rgba($color: #195670, $alpha: .85);
+            background: rgba($color: #1B383A, $alpha: .85);
             width: fit-content;
             margin-inline: auto;
             height: 300px;
@@ -311,6 +319,7 @@
 
         .test2 {
           background-image: url(../assets/images/testimonial/Alex.jpg);
+          border-radius: 20px;
           background-position: top;
           background-size: cover;
           background-repeat: no-repeat;
@@ -323,6 +332,7 @@
           }
 
           p {
+            padding: 100px;
             opacity: 0;
             transition: .3s ease all;
           }
@@ -330,14 +340,15 @@
           &,
           p {
             position: relative;
-            color: rgba($color: #ffffff, $alpha: 1);
+            color: rgba($color: #F5F3EE, $alpha: 1);
           }
 
           &:hover p {
             padding: 15px 80px 0 20px;
+            border-radius: 20px;
             opacity: 1;
             transition: .3s ease all;
-            background: rgba($color: #195670, $alpha: .85);
+            background: rgba($color: #1B383A, $alpha: .85);
             width: fit-content;
             margin-inline: auto;
             height: 300px;
@@ -350,6 +361,7 @@
 
         .test3 {
           background-image: url(../assets/images/testimonial/Cameron.jpg);
+          border-radius: 20px;
           background-position: top;
           background-size: cover;
           background-repeat: no-repeat;
@@ -362,6 +374,7 @@
           }
 
           p {
+            padding: 100px;
             opacity: 0;
             transition: .3s ease all;
           }
@@ -369,14 +382,15 @@
           &,
           p {
             position: relative;
-            color: rgba($color: #ffffff, $alpha: 1);
+            color: rgba($color: #F5F3EE, $alpha: 1);
           }
 
           &:hover p {
             padding: 15px 80px 0 20px;
+            border-radius: 20px;
             opacity: 1;
             transition: .3s ease all;
-            background: rgba($color: #195670, $alpha: .85);
+            background: rgba($color: #1B383A, $alpha: .85);
             width: fit-content;
             margin-inline: auto;
             height: 300px;
@@ -389,6 +403,7 @@
 
         .test4 {
           background-image: url(../assets/images/testimonial/Dale.jpg);
+          border-radius: 20px;
           background-position: top;
           background-size: cover;
           background-repeat: no-repeat;
@@ -401,6 +416,7 @@
           }
 
           p {
+            padding: 100px;
             opacity: 0;
             transition: .3s ease all;
           }
@@ -408,14 +424,15 @@
           &,
           p {
             position: relative;
-            color: rgba($color: #ffffff, $alpha: 1);
+            color: rgba($color: #F5F3EE, $alpha: 1);
           }
 
           &:hover p {
             padding: 15px 80px 0 20px;
+            border-radius: 20px;
             opacity: 1;
             transition: .3s ease all;
-            background: rgba($color: #195670, $alpha: .85);
+            background: rgba($color: #1B383A, $alpha: .85);
             width: fit-content;
             margin-inline: auto;
             height: 300px;
@@ -447,14 +464,14 @@
           &,
           p {
             position: relative;
-            color: rgba($color: #ffffff, $alpha: 1);
+            color: rgba($color: #F5F3EE, $alpha: 1);
           }
 
           &:hover p {
             padding: 15px 80px 0 20px;
             opacity: 1;
             transition: .3s ease all;
-            background: rgba($color: #195670, $alpha: .85);
+            background: rgba($color: #1B383A, $alpha: .85);
             width: fit-content;
             margin-inline: auto;
             height: 300px;
@@ -486,14 +503,14 @@
           &,
           p {
             position: relative;
-            color: rgba($color: #ffffff, $alpha: 1);
+            color: rgba($color: #F5F3EE, $alpha: 1);
           }
 
           &:hover p {
             padding: 15px 80px 0 20px;
             opacity: 1;
             transition: .3s ease all;
-            background: rgba($color: #195670, $alpha: .85);
+            background: rgba($color: #1B383A, $alpha: .85);
             width: fit-content;
             margin-inline: auto;
             height: 300px;

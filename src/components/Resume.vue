@@ -1,10 +1,10 @@
 <template>
   <div class="resume py-12 space-y-5">
-    <h2 class="font-light uppercase pt-12 text-base">resume</h2>
+    <h2 class="font-bold uppercase pt-12 text-base">resume</h2>
     <h1 class="font- uppercase text-4xl">Resume</h1>
     <div class="resume-details grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-12">
       <div class="col-span-2">
-        <span style="color: #195670;" class="font-bold tracking-wider text-xl">LC Studio</span>
+        <span style="color: #E1895D;" class="font-bold tracking-wider text-xl">LC Studio</span>
         <br>
         <span class="tracking-wider">2021-Present</span>
         <br><br>
@@ -13,7 +13,7 @@
           I am also upskilling in 3D design, and prototyping.
         </p>
         <br><br>
-          <span style="color: #195670;" class="font-bold tracking-wider text-xl">Arabica Coffee.Co Cape Town</span>
+          <span style="color: #E1895D;" class="font-bold tracking-wider text-xl">Arabica Coffee.Co Cape Town</span>
           <br>
           <span class="tracking-wider">2017-2022</span>
           <br><br>
@@ -24,7 +24,7 @@
             funtions, etc. I've done design work for them as well, such as banners and digital signatures.
           </p>
           <br><br>
-            <span style="color: #195670;" class="font-bold tracking-wider text-xl">Seni Silat Cape Town</span>
+            <span style="color: #E1895D;" class="font-bold tracking-wider text-xl">Seni Silat Cape Town</span>
             <br>
             <span class="tracking-wider">2012-Present</span>
             <br><br>
@@ -34,7 +34,7 @@
               teaching kids and adults.
             </p>
             <br><br>
-        <span style="color: #195670;" class="font-bold tracking-wider text-xl">National Senior Certificate</span>
+        <span style="color: #E1895D;" class="font-bold tracking-wider text-xl">National Senior Certificate</span>
         <br>
         <span class="tracking-wider">2015-2019</span>
         <br><br>
@@ -48,7 +48,7 @@
       <div class="skills md:-space-y-40 sm:space-x-24 md:space-x-0 grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-2">
         <div class="tech-stack">
           <ul class="space-y-2 text-lg">
-            <span style="color: #195670;" class="text-xl font-bold tracking-wider">Tech Stack</span>
+            <span style="color: #E1895D;" class="text-xl font-bold tracking-wider">Tech Stack</span>
             <br><br>
             <li>HTML</li>
             <li>CSS</li>
@@ -67,7 +67,7 @@
           </ul>
         </div>
         <div>
-          <span style="color: #195670;" class="font-bold text-xl tracking-wider">Tools</span>
+          <span style="color: #E1895D;" class="font-bold text-xl tracking-wider">Tools</span>
         <br><br>
         <ul class="space-y-2 text-lg">
           <li>Figma</li>
@@ -130,10 +130,12 @@
     h1 {
       font-family: 'Poppins', sans-serif;
       margin-left: 6.7%;
+      color: #1B383A;
     }
 
     h2 {
-      color: #195670;
+      color: #1B383A;
+      opacity: 75%;
       font-family: 'Poppins', sans-serif;
       margin-left: 7%;
     }
