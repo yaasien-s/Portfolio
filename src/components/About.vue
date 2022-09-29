@@ -96,7 +96,7 @@
           <p class="text-left ">
 
             <span class="absolute right-6 space-y-5">
-              <a href="https://dev-p0rtf0li01.pantheonsite.io/" target="_blank">
+              <a href="https://dev-p0rtf0li03.pantheonsite.io/" target="_blank">
                 <svg class="fill-white hover:fill-black duration-300" width="30" height="30" viewBox="0 0 20 20"
                   fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -447,85 +447,85 @@
           }
         }
 
-        .test5 {
-          background-image: url(../assets/images/testimonial/Tursha.jpg);
-          background-position: top;
-          background-size: cover;
-          background-repeat: no-repeat;
-          transition: .3s ease all;
-          width: fit-content;
-          height: 300px;
+        // .test5 {
+        //   background-image: url(../assets/images/testimonial/Tursha.jpg);
+        //   background-position: top;
+        //   background-size: cover;
+        //   background-repeat: no-repeat;
+        //   transition: .3s ease all;
+        //   width: fit-content;
+        //   height: 300px;
 
-          &:hover {
-            transition: .3s ease all;
-          }
+        //   &:hover {
+        //     transition: .3s ease all;
+        //   }
 
-          p {
-            opacity: 0;
-            transition: .3s ease all;
-            font-family: 'Cabin', sans-serif;
-          }
+        //   p {
+        //     opacity: 0;
+        //     transition: .3s ease all;
+        //     font-family: 'Cabin', sans-serif;
+        //   }
 
-          &,
-          p {
-            position: relative;
-            color: rgba($color: #F5F3EE, $alpha: 1);
-          }
+        //   &,
+        //   p {
+        //     position: relative;
+        //     color: rgba($color: #F5F3EE, $alpha: 1);
+        //   }
 
-          &:hover p {
-            padding: 15px 80px 0 20px;
-            opacity: 1;
-            transition: .3s ease all;
-            background: rgba($color: #1B383A, $alpha: .85);
-            width: fit-content;
-            margin-inline: auto;
-            height: 300px;
-          }
+        //   &:hover p {
+        //     padding: 15px 80px 0 20px;
+        //     opacity: 1;
+        //     transition: .3s ease all;
+        //     background: rgba($color: #1B383A, $alpha: .85);
+        //     width: fit-content;
+        //     margin-inline: auto;
+        //     height: 300px;
+        //   }
 
-          .absolute {
-            top: 45%;
-          }
-        }
+        //   .absolute {
+        //     top: 45%;
+        //   }
+        // }
 
-        .test6 {
-          background-image: url(../assets/images/testimonial/Yaaseen.jpg);
-          background-position: top;
-          background-size: cover;
-          background-repeat: no-repeat;
-          transition: .3s ease all;
-          width: fit-content;
-          height: 300px;
+        // .test6 {
+        //   background-image: url(../assets/images/testimonial/Yaaseen.jpg);
+        //   background-position: top;
+        //   background-size: cover;
+        //   background-repeat: no-repeat;
+        //   transition: .3s ease all;
+        //   width: fit-content;
+        //   height: 300px;
 
-          &:hover {
-            transition: .3s ease all;
-          }
+        //   &:hover {
+        //     transition: .3s ease all;
+        //   }
 
-          p {
-            opacity: 0;
-            transition: .3s ease all;
-            font-family: 'Cabin', sans-serif;
-          }
+        //   p {
+        //     opacity: 0;
+        //     transition: .3s ease all;
+        //     font-family: 'Cabin', sans-serif;
+        //   }
 
-          &,
-          p {
-            position: relative;
-            color: rgba($color: #F5F3EE, $alpha: 1);
-          }
+        //   &,
+        //   p {
+        //     position: relative;
+        //     color: rgba($color: #F5F3EE, $alpha: 1);
+        //   }
 
-          &:hover p {
-            padding: 15px 80px 0 20px;
-            opacity: 1;
-            transition: .3s ease all;
-            background: rgba($color: #1B383A, $alpha: .85);
-            width: fit-content;
-            margin-inline: auto;
-            height: 300px;
-          }
+        //   &:hover p {
+        //     padding: 15px 80px 0 20px;
+        //     opacity: 1;
+        //     transition: .3s ease all;
+        //     background: rgba($color: #1B383A, $alpha: .85);
+        //     width: fit-content;
+        //     margin-inline: auto;
+        //     height: 300px;
+        //   }
 
-          .absolute {
-            top: 45%;
-          }
-        }
+        //   .absolute {
+        //     top: 45%;
+        //   }
+        // }
 
         img {
           height: 300px;

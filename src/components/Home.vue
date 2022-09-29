@@ -1,16 +1,16 @@
 <template>
     <div class="home">
         <div class="landing"></div>
-        <h1 class="mb-6 leading-tight text-5xl font-bold text-white uppercase"><span
-                class="font-normal text-4xl">Hi. I am</span>
+        <h1 class="mb-6 leading-tight text-5xl font-semibold text-white normal-case"><span
+                class="font-lg text-4xl">Hi. I am</span>
             {{ name }}
             {{ name2 }}
             <br>
-            <span class="font-normal text-4xl">Aspiring Junior Web Developer,
+            <span class="font-lg text-4xl">Aspiring Junior Web Developer,
                 <br>
                  UI UX Designer</span></h1>
         <br>
-        <router-link :to="{ name: 'About' }"><button class="absolute py-3 px-6 text-white sm:mt-12 md:mt-10 lg:mt-0">Find out
+        <router-link :to="{ name: 'About' }"><button class="absolute text-white sm:mt-12 md:mt-10 lg:mt-0">Find out
                 more</button>
         </router-link>
         <a href="#Home-2"><i class="fa-solid fa-chevron-down animate-bounce absolute md:text-3xl lg:text-4xl"></i></a>
@@ -235,7 +235,7 @@
         <hr>
         <p class="text-lg">If you are looking for a designer/developer, <br> or just looking to collab, feel free to send me a message.
         </p>
-        <router-link :to="{ name: 'Contact' }"><button class="py-3 px-7 mb-8 text-white my-5">Send a message</button>
+        <router-link :to="{ name: 'Contact' }"><button class="mb-8 text-white my-5">Send a message</button>
         </router-link>
 
     </div>
@@ -376,6 +376,7 @@
             border-radius: 10px;
             background: rgba($color: #E1895D, $alpha: 1.0);
             transition: .3s ease all;
+            padding: 10px 20px;
 
             @media (max-width:400px) {
                 top: 65%;
@@ -402,6 +403,7 @@
             font-family: 'Open Sans', sans-serif;
             transition: .2s ease all;
             border-radius: 10px;
+            padding: 10px 20px;
 
             &:hover {
                 background-color: #dd682d;
