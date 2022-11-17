@@ -12,6 +12,13 @@
         <router-link :to="{ name: 'Contact' }" class="hover:text-black"><button>Let's Talk</button></router-link>
         
     </nav>
+
+    <div class="MobileNav space-y-6 py-4">
+        <router-link :to="{ name: 'Home' }"><i class="fa fa-home"></i></router-link>
+        <router-link :to="{ name: 'About' }"><i class="fa fa-user"></i></router-link>
+        <router-link :to="{ name: 'Resume' }"><i class="fa fa-book"></i></router-link>
+        <router-link :to="{ name: 'Contact' }"><button><i class="fa fa-envelope"></i></button></router-link>
+    </div>
 <router-view />
 </div>
 </template>
@@ -69,6 +76,7 @@ nav{
 
     @include for-size(phone-only){
         height: fit-content;
+        display: none;
     }
 
     .absolute{
@@ -108,10 +116,24 @@ nav{
             &:hover{
                 background: #dd682d;
                 transition: .3s ease all;
+                
+                @include for-size(phone-only) {
+                    border-radius: 0;
+                padding: 0;
+                margin-top: 0;
+                background: none;
+                color: black;
+                transition: .3s ease all;
+                }
             }
 
             @include for-size(phone-only) {
-               display: none;
+                border-radius: 0;
+            padding: 0;
+            margin-top: 0;
+            background: none;
+            color: black;
+            transition: .3s ease all;
             }
         }
     }
@@ -123,5 +145,36 @@ nav{
 
   }
 
+}
+
+.MobileNav{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: rgba($color: #1B383A, $alpha: 1.0);
+    z-index: 1000;
+    display: grid;
+    padding-right: 15px;
+    padding-left: 10px;
+    position: fixed;
+    right: 0;
+    top: 45%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    @include for-size(tablet-portrait-up){
+        display: none;
+    }
+
+    i{
+        font-size: 1.3rem;
+        transition: .3s ease all;
+        color: #F5F3EE;
+
+        &:hover{
+            color: black;
+            transition: .3s ease all;
+        }
+    }
+    a.router-link-exact-active {
+    color: #000;
+  }
 }
 </style>
