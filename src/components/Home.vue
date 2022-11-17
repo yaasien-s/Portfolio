@@ -13,7 +13,7 @@
         <router-link :to="{ name: 'About' }"><button class="absolute text-white sm:mt-12 md:mt-10 lg:mt-0">Find out
                 more</button>
         </router-link>
-        <a href="#Home-2"><i class="fa-solid fa-chevron-down animate-bounce absolute md:text-3xl lg:text-4xl"></i></a>
+        <a href="#Home-2"><i class="fa-solid fa-chevron-down animate-bounce absolute sm:text-4xl md:text-3xl lg:text-4xl"></i></a>
     </div>
     <div id="Home-2" class="home-2 text-black">
 

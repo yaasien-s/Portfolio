@@ -157,7 +157,7 @@ nav{
     padding-left: 10px;
     position: fixed;
     right: 0;
-    top: 45%;
+    top: 36%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     @include for-size(tablet-portrait-up){
         display: none;
