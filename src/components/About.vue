@@ -1,5 +1,6 @@
 <template>
   <div class="about py-20 space-y-5">
+    <div class="about-mobile">
     <h2 class="uppercase pt-12 text-md font-bold" style="color:#1B383A;
     opacity: 75%;">{{ name }}
       {{ name2 }}</h2>
@@ -40,6 +41,7 @@
       <div class="image">
         <img class="mx-auto duration-500 w-7.5/12 -mt-6" src="../assets/images/Me.png" alt="">
       </div>
+    </div>
     </div>
 
     <div class="testimonials space-y-12">
@@ -205,6 +207,37 @@
 </script>
 
 <style lang="scss" scoped>
+    @mixin for-size($size) {
+        @if $size==phone-only {
+            @media (max-width: 599px) {
+                @content;
+            }
+        }
+
+        @else if $size==tablet-portrait-up {
+            @media (min-width: 600px) {
+                @content;
+            }
+        }
+
+        @else if $size==tablet-landscape-up {
+            @media (min-width: 900px) {
+                @content;
+            }
+        }
+
+        @else if $size==desktop-up {
+            @media (min-width: 1200px) {
+                @content;
+            }
+        }
+
+        @else if $size==big-desktop-up {
+            @media (min-width: 1800px) {
+                @content;
+            }
+        }
+    }
   .about {
     height: 100%;
 
@@ -270,10 +303,27 @@
       margin-left: 7%;
     }
 
+    .about-mobile{
+      
+      @include for-size(phone-only){
+        padding: 0 0 40px 0;
+        margin-left: 30px !important;
+        border-radius: 10px;
+        width: 95%;
+        margin-inline: auto;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+      }
+
     .testimonials {
       .grid {
         margin-inline: auto;
         width: 85.7%;
+        
+        @include for-size(phone-only){
+          width: 95%;
+          margin-left: 33px;
+      }
 
         .test1 {
           background-image: url(../assets/images/testimonial/Abdul.jpg);

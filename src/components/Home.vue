@@ -337,6 +337,7 @@
 
             @include for-size(phone-only) {
                 background-position: right;
+                width: 110%;
             }
         }
 
@@ -382,6 +383,8 @@
             transition: .3s ease all;
             padding: 10px 20px;
 
+            
+
             @include for-size(phone-only) {
                 top: 45%;
             }
@@ -426,7 +429,9 @@
             @include for-size(phone-only) {
                 display: grid;
                 grid: none;
-                // margin-left: 23px;
+                margin-inline: auto;
+                margin-left: 25px;
+                width: 95%;
             }
 
             p {
